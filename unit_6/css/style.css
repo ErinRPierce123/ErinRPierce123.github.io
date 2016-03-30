@@ -24,7 +24,10 @@ nav a {
 nav a:hover { 
   background-color: #338833; 
 }
-img: {}
+img.small{ 
+	width: 5em; 
+    height: auto;
+}
 
 .column {
 	float: left;
@@ -34,16 +37,23 @@ img: {}
 	margin: 0;
 }
 
-#column1 {
+#two_column {
   background-color: #ffffff;
+  padding: 20px top;
 }
 
-#column2 {
+#left {
   background-color: #ffffff;
+  padding: 20px top;
+  float: left;
+  width: 20%;
 }
 
-#column3 {
+#right {
   background-color: #ffffff;
+  padding: 20px top;
+  float: right;
+  width: 40%;
 }
 
 article {
