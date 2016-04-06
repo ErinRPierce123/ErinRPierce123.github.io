@@ -5,10 +5,17 @@
 	background-color: #ffffff;
 }
 header {
-    background-color: #E01D1B;
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
+    padding: 20px;
+}
+body {font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
     padding: 20px;
 }
 nav {
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
 	background: #333;
 }
 
@@ -38,26 +45,28 @@ img.small{
 }
 
 #two_column {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px top;
 }
 
 #left {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px top;
   float: left;
   width: 20%;
 }
 
 #right {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px top;
   float: right;
   width: 40%;
 }
 
 article {
-	background-color: #ffffff;
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
+	background-color: #000000;
 	float: right;
 	width: 450px;
   	height: 300px;
@@ -65,7 +74,9 @@ article {
 	margin: 0;
 }
 aside {
-	background-color: #ffffff;
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
+	background-color: #000000;
 	float: left;
 	width: 200px;
 	padding: 20px;
@@ -73,11 +84,17 @@ aside {
 }
 
 footer {
-	background-color: #ffffff;
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
+	background-color: #000000
 	text-align: right;
 	padding: 20px;
 	margin: 0;
 	float: right;
+}
+section {
+	font-family: "proxima-nova", sans-serif;
+	color: #ffffff;
 }
 
 .clearfix:after {
