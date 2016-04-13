@@ -1,0 +1,185 @@
+* { margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+main{
+    background-color: #000000;
+    color:#3C3C3C;
+    padding:50px 0;
+}
+
+header {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+    padding: 2em;
+}
+body {
+	font-family: "proxima-nova", sans-serif;
+	font-size: 16px;
+	position: relative;
+	color: #cccccc;
+    padding: 2em;
+}
+nav {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+	background: #333;
+}
+
+nav a {
+	display: block;
+	float: right;
+	padding: 5px 10px;
+	color: #cccccc;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+nav a:hover { 
+  background-color: #338833; 
+}
+
+article {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+	background-color: #000000;
+	float: right;
+	width: 50%;
+	padding: 2em;
+	margin: 0;
+}
+aside {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+	background-color: #000000;
+	float: left;
+	width: 50%;
+	padding: 2em;
+	margin: 0;
+}
+
+footer {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+	background-color: #000000
+	text-align: right;
+	padding: 2em;
+	margin: 0;
+	float: right;
+}
+section {
+	font-family: "proxima-nova", sans-serif;
+	color: #cccccc;
+    padding: 1em;
+}
+div {
+	width: 40%;
+    padding: 1em;
+}
+img.small{ 
+	width: 4em; 
+}
+
+#container {
+	margin: 0 auto;
+	width: 90%;
+	background-color: #000000;
+}
+
+#two_column {
+  background-color: #000000;
+  padding: 2em top;
+}
+
+#left {
+  background-color: #000000;
+  padding: 2em top;
+  float: left;
+  width: 20%;
+}
+
+#right {
+  background-color: #000000;
+  padding: 2em top;
+  float: right;
+  width: 40%;
+}
+
+.wrapper{
+	width: 90%;
+    margin: auto;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	padding: 2em;
+	margin: 0;
+}
+.box {
+  float: left;
+  width: 20%;
+  margin: 1em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: " ";
+  display: block;
+  clear:both;
+}
+#mobile {
+	display: none;
+}
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1600px;
+	}
+}
+
+@media only screen and (max-width: 1130px) {
+	footer p {
+		float: none;
+	}
+	footer {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		font-size: 18px;
+	}
+
+	main {
+		width: 55%;
+	}
+
+	aside {	
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	body {
+		font-size: 16px;
+	}
+
+	main, aside {
+		width: auto;
+		float: none;
+	}
+	
+	aside ul, aside img, aside h5:nth-of-type(2) {
+		display: none;
+	}
+}
+@media only screen and (max-width: 660px) {
+	#mobile {
+		display: block;
+	}
