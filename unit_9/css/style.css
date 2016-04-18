@@ -9,13 +9,69 @@
 }
 
 body{
-	background-color: #201828;
-	font-size: 16px;
+	background-color: #fff;
+	font-size: 15px;
 	position: relative;
+	background: src="images/photo_3.jpg" no-repeat;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin:0 0 2.5em;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size: .7em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-weight: normal;
+	font-size: 1em;
+	margin: 2em 0em 1em 0em;
+	text-align:center;
+}
+
+p{
+	font-family: 'Sorts+Mill+Goudy', serif;
+	color: #fff;
+	font-size:1.1em;
+	font-weight:normal;
+	line-height: 1.5em;
+	margin: 0em 5em 0em 5em;
+	text-align:center;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0em;
+	-webkit-margin-end: 0em;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+	font-size: .8em;
+	margin: 0 0 .2em 0;
+	padding-top: 0;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 0;
 }
 
 header{
-	padding:0 200px;
+	position: center;
+	margin:auto;
 }
 
 nav{
@@ -25,7 +81,7 @@ nav{
 
 nav a:link{
 	font-family: 'Montserrat', sans-serif;
-	color:#fff;
+	color:#000;
 	padding:0 32px;
 	font-size: .8em;
 	text-align: center;
@@ -42,88 +98,16 @@ nav a:visited{
 }
 
 nav a:hover{
-	color: #C400C4;
+	color: #2D5B75;
 }
 
 nav a:active{
-	color: #C400C4;
+	color: #2D5B75;
 }
 
-.wrap-gallery{
-	background-color: #fff;
-	color:#3C3C3C;
-	padding:50px 0;
-}
-
-section{
-	padding:50px 0;
-}
-
-footer{
-	font-family: 'Montserrat', sans-serif;
-	color:#fff;
-	font-size: .8em;
-	text-align: center;
-	letter-spacing: 2px;
-}
-
-h1{
-	font-family: 'Sorts+Mill+Goudy', serif;
-	font-weight: normal;
-	font-size:60px;
-	text-align:center;
-	color:#fff;
-	margin:200px 0 0;
-}
-
-h2, h3, h4{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-
-h2{
-	font-size:.8em;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin:0 0 2.5em;
-}
-
-h2 + hr{
-	background-color: #fff;
-	height:1px;
-}
-
-h3{
-	font-weight: 100;
-	font-size:1.6em;
-	margin:.5em;
-}
-
-h3 + hr{
-	background-color: #3C3C3C;
-	height:3px;
-}
-
-h4{
-	color: #fff;
-	font-weight: normal;
-	font-size:1.5 em;
-	margin:.5em;
-	text-align:center;
-}
-
-p{
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	font-size:1.5 em;
-	margin: 5 em;
-	text-align:center;
-}
-
-a{
-	text-decoration:none;
-	color:#fff;
-	margin: 0 0 .2em 0;;
+img {
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .clearfix:after{
@@ -131,64 +115,145 @@ a{
 	font-size:0;
 	visibility:hidden;
 	display:block;
+	overflow: auto;
 	content:" ";
 	clear:both;
 }
 
-.gallery{
-	width:25%;
-	padding:1%;
-	margin:1%;
-	float:left;
+.buzz{
+	width: 36em;
+	margin-left: auto;
+    margin-right: auto;
 }
+
+.element2 {
+	background: url(iamges.jpg);
+	-webkit-mask: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.gallery{
+	width:300px;
+	margin: 2em;
+	float: left;
+}
+.resize{
+	width: 20em;
+    height: auto;
+    padding:10px;
+}
+
+.displayed{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+} 
 
 .about{
 	width:100%;
-	padding:2em 0 0;
+	padding-top: 2em;
+	padding-left: 10em;
+	padding-right: 10em;
 	position:center;
 	background-color: orange;
-}
-
-.about h3{
-	color: #000;
-	margin:0 0 1em;
-	position: absolute;
 	top:220px;
-}
-div.about {
-  	align-items: center 
+	align-items: center 
 }
 
 .contact {
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	padding:32px;
-	font-size: .8em;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+.icon {
+	width: 2em;
+    height: auto;
+} 
+
+.gallery-image{
+	float: left;
+}
+.gallery-copy {
+	float: right;
+	margin-left: 10em;
+}
+
+img.buzz {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+/*div#john p {
+	float: left;
+	width: 21%;
+	text-align: center;
+	padding: 3em 0;
+	background: #fff;
+	border-radius: 50%;
+	margin: 25%;
+	font-size: 2em;
+	border: 2px solid;
+}*/
+
+#page-wrap {
+     width: 1080px;
+     margin: 0 auto;
+}
+
 #wrap-splash{
-	background:url(img src="images/photo_1.jpg") 
-	width:100%;
-	margin:auto;
-	height:750px;
-	padding:20px 0;
+	background: url(images/photo_3_1.jpg);
+    background-image: url("images/photo_3_1.jpg");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+	color:#F1E9E4;
+	padding:2em 10% 5em;
 }
 
 #wrap-gallery{
 	background-color:#000;
 	color:#F1E9E4;
-	padding:5em 10% 7em;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+}
+#wrap-gallery_2{
+	background-color: orange;
+	color:orange;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+}
+
+#wrap-gallery_2 img{
+	padding-left: 2em;
+}
+
+#wrap-about{
+	padding-top: 2.5em;
+	padding-bottom: 1em;
 }
 
 #toggle{
 	display: none;
 }
 
+#wrap-contact{
+	background-color: #000;
+	color:#3C3C3C;
+	padding:1em 0 1em 0;
+}
 
 @media screen and (max-width:1645px){
-	.about{
+	.gallery{
 		width:48%;
 		height: 651px;
 	}
@@ -199,17 +264,16 @@ div.about {
 		padding:0 10%;
 	}
 
-	.about{
+	.gallery{
 		height: 560px;
 	}
 
 @media screen and (max-width:1000px){
-	.about{
+	.gallery{
 		width:100%;
 		float:none;
 		height: auto;
 	}
-}
 
 @media screen and (max-width:750px){
 	nav{
@@ -230,12 +294,8 @@ div.about {
 		padding:0 2%;
 	}
 
-	label{
-		display: block;
-	}
-
 	#toggle:checked + nav{
 		display: block;
 	}
 
-}
+
