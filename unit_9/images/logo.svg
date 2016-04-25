@@ -185,5 +185,6 @@
 	<path class="st6" d="M77.4,96.4h3.9v1h-5.4v-0.8l3.9-4.6H76v-1h5.2v0.8L77.4,96.4z"/>
 	<path class="st6" d="M83.4,96.4h3.9v1h-5.4v-0.8l3.9-4.6H82v-1h5.2v0.8L83.4,96.4z"/>
 </g>
-<text transform="matrix(1 0 0 1 29.0458 103.6394)" class="st5"><tspan x="0" y="0" class="st6 st7 st8">READY. SET. CREATE</tspan><tspan x="43.7" y="0" class="st6 st7 st8">.</tspan></text>
+<text transform="matrix(1 0 0 1 29.0458 103.6394)" class="st6 st7 st8">READY. SET. CREATE</text>
+<text transform="matrix(1 0 0 1 72.7458 103.6394)" class="st6 st7 st8">.</text>
 </svg>
