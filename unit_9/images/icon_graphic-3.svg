@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 364 100" style="enable-background:new 0 0 364 100;" xml:space="preserve">
+	 viewBox="0 0 306 80" style="enable-background:new 0 0 306 80;" xml:space="preserve">
 <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c111 79.158366, 2015/09/25-01:12:00        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -55,13 +55,13 @@
 	.st2{font-family:'GillSansMT';}
 	.st3{font-size:6.375px;}
 </style>
-<line class="st0" x1="38" y1="50.1" x2="329" y2="50.1"/>
-<circle class="st1" cx="67.9" cy="49.7" r="29.6"/>
-<circle class="st1" cx="145.2" cy="49.7" r="29.6"/>
-<circle class="st1" cx="221.9" cy="49.7" r="29.6"/>
-<circle class="st1" cx="299.3" cy="49.7" r="29.6"/>
-<text transform="matrix(1 0 0 1 46.6523 51.7666)" class="st2 st3">Product Strategy</text>
-<text transform="matrix(1 0 0 1 123.7231 51.7666)" class="st2 st3">User Experience</text>
-<text transform="matrix(1 0 0 1 204.5957 51.7666)" class="st2 st3">Visual Design</text>
-<text transform="matrix(1 0 0 1 282.7715 51.7666)" class="st2 st3">Development</text>
+<line class="st0" x1="8" y1="42.1" x2="299" y2="42.1"/>
+<circle class="st1" cx="37.9" cy="41.7" r="29.6"/>
+<circle class="st1" cx="115.2" cy="41.7" r="29.6"/>
+<circle class="st1" cx="191.9" cy="41.7" r="29.6"/>
+<circle class="st1" cx="269.3" cy="41.7" r="29.6"/>
+<text transform="matrix(1 0 0 1 16.6523 43.7666)" class="st2 st3">Product Strategy</text>
+<text transform="matrix(1 0 0 1 93.7231 43.7666)" class="st2 st3">User Experience</text>
+<text transform="matrix(1 0 0 1 174.5957 43.7666)" class="st2 st3">Visual Design</text>
+<text transform="matrix(1 0 0 1 252.7715 43.7666)" class="st2 st3">Development</text>
 </svg>
